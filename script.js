@@ -1,6 +1,11 @@
-var apikey = "m26NDaGVAdyor4kgdcmxEOhxjlryTF3Q";
-var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + userinput + "&api-key=" + apikey;
-var userinput = "";
+var keyword = "boeing";
+var startYear = 1999;
+var endYear = 2019;
+
+var apiKey = "m26NDaGVAdyor4kgdcmxEOhxjlryTF3Q";
+var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + keyword + "&" + startYear + "&" + endYear + "&api-key=" + apiKey;
+
+
 console.log(queryURL);
 
 $.ajax({
@@ -8,7 +13,7 @@ $.ajax({
     method: "GET"
 }) .then(function (response) {
 console.log(response);
-userinput = "GA Tech";
+
 });
 
 
