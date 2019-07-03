@@ -16,6 +16,6 @@ userinput = "GA Tech";
 
 
 
-console.log(response);
+
 
 
