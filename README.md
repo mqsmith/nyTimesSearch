@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # nyTimesSearch
 In this activity, we are re-creating the New York Time Search page.
 Before we begin:
@@ -34,8 +33,6 @@ Data Team Task
 
 Team
 1) Display the HTML Content
-=======
 NY Times Search Application 
 
 Search and find some stuff out maybe
->>>>>>> 6f4f7e31cfaac15e7749f7b5b8471dee0679cd20
